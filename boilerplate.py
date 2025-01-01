@@ -1,6 +1,6 @@
-from __dotenv__ import load_dotenv
-from __pathlib__ import Path
-import __sys__, __os__
+from dotenv import load_dotenv
+from pathlib import Path
+import sys, os
 
 def load_env_files():
     current_dir = Path(__file__).parent
